@@ -1,0 +1,10 @@
+{
+  "manifest_version": 2,
+  "name": "nostalgic-dj",
+  "version": "1.0",
+  "description": "This extension turns your browser into an old Yamaha piano!",
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "web_accessible_resources": ["*.wav"]
+}
