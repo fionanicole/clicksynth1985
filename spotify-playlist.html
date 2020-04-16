@@ -1,0 +1,31 @@
+<!--
+  This is the popup  HTML file. It will appear whenever the user
+  presses the extension button.  It just a plain old web page!
+  But it can communicate with the background and content scripts
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Brianna's Mix</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+  <link rel="stylesheet" type="text/css" href="1980.css">
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+  <script src="popup.js" type="text/javascript"></script>
+</head>
+
+<body class="backset">
+
+  <div id="assessment">
+    <div>
+      <iframe src="https://open.spotify.com/embed/playlist/5oUhFFGRD5Dtgy87HidMdq" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    </div>
+    <div>
+      <button class="menuButtons"><a href="popup.html">Go back to music mixer!</a></button>
+    </div>
+    <script src="popup.js"></script>
+  </div>
+</body>
+</html>

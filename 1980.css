@@ -7,8 +7,7 @@
 }
 
 .backset {
-  background-color: black;
-  color: white;
+  background: black;
   width: "1000px";
   height: "500px";
 }
@@ -34,11 +33,23 @@
   font-family: 'Audiowide', cursive;
   font-size: 32px;
   text-align: center;
-  background: -webkit-linear-gradient(lightblue, blue);
+  background: -webkit-linear-gradient(#b3e6ff, #0099e6);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-button:hover {
-  background-color: pink;
+.menuButtons{
+  display:flex;
+  font-family: 'Audiowide', cursive;
+  font-size: 12px;
+  background-color: lightblue;
+}
+
+.keySet:hover {
+  background-color: rgb(255, 102, 255);
+}
+
+/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_buttons_animate3 */
+.keySet:active{
+  background-color: rgb(179, 0, 179);
 }
