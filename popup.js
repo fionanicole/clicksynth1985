@@ -1,4 +1,5 @@
-// https://stackoverflow.com/questions/36324333/refused-to-execute-inline-event-handler-because-it-violates-csp-sandbox#answer-36349056
+// add piano buttons to piano
+// SOURCE:https://stackoverflow.com/questions/36324333/refused-to-execute-inline-event-handler-because-it-violates-csp-sandbox#answer-36349056
 document.getElementById("myButton1").addEventListener("click", aaghButton);
 document.getElementById("myButton2").addEventListener("click", alarmriseButton);
 document.getElementById("myButton3").addEventListener("click", chatterButton);
@@ -28,193 +29,207 @@ document.getElementById("myButton26").addEventListener("click", threeButton);
 document.getElementById("myButton27").addEventListener("click", uuhghButton);
 document.getElementById("myButton28").addEventListener("click", verygoodButton);
 document.getElementById("myButton29").addEventListener("click", woohButton);
-document.getElementById("myButton30").addEventListener("click", yoButton);
-document.getElementById("myButton31").addEventListener("click", zipupButton);
 
-
-// https://stackoverflow.com/questions/27496465/how-can-i-play-sound-in-a-chrome-extension
-function aaghButton(){
+// functions to run sounds
+// SOURCE:https://stackoverflow.com/questions/27496465/how-can-i-play-sound-in-a-chrome-extension
+function aaghButton() {
   console.log("aagh is running")
   var aaghSound = new Audio(chrome.runtime.getURL("djmix/aagh.wav"));
   aaghSound.play();
 }
 
-function alarmriseButton(){
+function alarmriseButton() {
   console.log("alarmrise is running")
   var alarmriseSound = new Audio(chrome.runtime.getURL("djmix/alarm-rise.wav"));
   alarmriseSound.play();
 }
 
-function chatterButton(){
+function chatterButton() {
   console.log("chatter is running")
   var chatterSound = new Audio(chrome.runtime.getURL("djmix/chatter.wav"));
   chatterSound.play();
 }
 
-function clapButton(){
+function clapButton() {
   console.log("clap is running")
   var clapSound = new Audio(chrome.runtime.getURL("djmix/clap.wav"));
   clapSound.play();
 }
 
-function cymbalriseButton(){
+function cymbalriseButton() {
   console.log("cymbalrise is running")
   var cymbalriseSound = new Audio(chrome.runtime.getURL("djmix/cymbal-rise.wav"));
   cymbalriseSound.play();
 }
 
-function comeonButton(){
+function comeonButton() {
   console.log("comeon is running")
   var comeonSound = new Audio(chrome.runtime.getURL("djmix/come-on.wav"));
   comeonSound.play();
 }
 
-function dictionaryButton(){
+function dictionaryButton() {
   console.log("dictionary is running")
   var dictionarySound = new Audio(chrome.runtime.getURL("djmix/dictionary.wav"));
   dictionarySound.play();
 }
 
-function dingdongButton(){
+function dingdongButton() {
   console.log("dingdong is running")
   var dingdongSound = new Audio(chrome.runtime.getURL("djmix/dingdong.wav"));
   dingdongSound.play();
 }
 
-function djshoutButton(){
+function djshoutButton() {
   console.log("djshout is running")
   var djshoutSound = new Audio(chrome.runtime.getURL("djmix/DJ-shout.wav"));
   djshoutSound.play();
 }
 
-function excellentButton(){
+function excellentButton() {
   console.log("excellent is running")
   var excellentSound = new Audio(chrome.runtime.getURL("djmix/excellent.wav"));
   excellentSound.play();
 }
 
-function femalesingButton(){
+function femalesingButton() {
   console.log("femalesing is running")
   var femalesingSound = new Audio(chrome.runtime.getURL("djmix/female-sing.wav"));
   femalesingSound.play();
 }
 
-function fourButton(){
+function fourButton() {
   console.log("four is running")
   var fourSound = new Audio(chrome.runtime.getURL("djmix/four.wav"));
   fourSound.play();
 }
 
-function getupButton(){
+function getupButton() {
   console.log("getup is running")
   var getupSound = new Audio(chrome.runtime.getURL("djmix/get-up.wav"));
   getupSound.play();
 }
 
-function goButton(){
+function goButton() {
   console.log("go is running")
   var goSound = new Audio(chrome.runtime.getURL("djmix/go.wav"));
   goSound.play();
 }
 
-function goodButton(){
+function goodButton() {
   console.log("good is running")
   var goodSound = new Audio(chrome.runtime.getURL("djmix/good.wav"));
   goodSound.play();
 }
 
-function hitButton(){
+function hitButton() {
   console.log("hit is running")
   var hitSound = new Audio(chrome.runtime.getURL("djmix/hit.wav"));
   hitSound.play();
 }
 
-function listenButton(){
+function listenButton() {
   console.log("listen is running")
   var listenSound = new Audio(chrome.runtime.getURL("djmix/listen.wav"));
   listenSound.play();
 }
 
-function okButton(){
+function okButton() {
   console.log("ok is running")
   var okSound = new Audio(chrome.runtime.getURL("djmix/ok.wav"));
   okSound.play();
 }
 
-function onemoretimeButton(){
+function onemoretimeButton() {
   console.log("onemoretime is running")
   var onemoretimeSound = new Audio(chrome.runtime.getURL("djmix/one-more-time.wav"));
   onemoretimeSound.play();
 }
 
-function oneButton(){
+function oneButton() {
   console.log("one is running")
   var oneSound = new Audio(chrome.runtime.getURL("djmix/one.wav"));
   oneSound.play();
 }
 
-function quackButton(){
+function quackButton() {
   console.log("quack is running")
   var quackSound = new Audio(chrome.runtime.getURL("djmix/quack.wav"));
   quackSound.play();
 }
 
-function riphigherButton(){
+function riphigherButton() {
   console.log("rip heigher is running")
   var riphigherSound = new Audio(chrome.runtime.getURL("djmix/rip-higher.wav"));
   riphigherSound.play();
 }
 
-function scratchButton(){
+function scratchButton() {
   console.log("scratch is running")
   var scratchSound = new Audio(chrome.runtime.getURL("djmix/scratch.wav"));
   scratchSound.play();
 }
 
-function sparkleButton(){
+function sparkleButton() {
   console.log("sparkle is running")
   var sparkleSound = new Audio(chrome.runtime.getURL("djmix/sparkle.wav"));
   sparkleSound.play();
 }
 
-function squishButton(){
+function squishButton() {
   console.log("squish is running")
   var squishSound = new Audio(chrome.runtime.getURL("djmix/squish.wav"));
   squishSound.play();
 }
 
-function threeButton(){
+function threeButton() {
   console.log("three is running")
   var threeSound = new Audio(chrome.runtime.getURL("djmix/three.wav"));
   threeSound.play();
 }
 
-function uuhghButton(){
+function uuhghButton() {
   console.log("uuhgh is running")
   var uuhghSound = new Audio(chrome.runtime.getURL("djmix/uuhgh.wav"));
   uuhghSound.play();
 }
 
-function verygoodButton(){
+function verygoodButton() {
   console.log("very good is running")
   var verygoodSound = new Audio(chrome.runtime.getURL("djmix/very-good.wav"));
   verygoodSound.play();
 }
 
-function woohButton(){
+function woohButton() {
   console.log("wooh is running")
   var woohSound = new Audio(chrome.runtime.getURL("djmix/wooh.wav"));
   woohSound.play();
 }
 
-function yoButton(){
+function yoButton() {
   console.log("yo is running")
   var yoSound = new Audio(chrome.runtime.getURL("djmix/yo.wav"));
   yoSound.play();
 }
 
-function zipupButton(){
+function zipupButton() {
   console.log("zipup is running")
   var zipupSound = new Audio(chrome.runtime.getURL("djmix/zipup.wav"));
   zipupSound.play();
+}
+
+//switch soundboard
+document.getElementById("switchUp").addEventListener("click", switchSource);
+
+function switchSource(){
+  document.getElementById("myButton1").src="bell.wav";
+  document.getElementById("myButton2").src="bell.wav";
+  document.getElementById("myButton3").src="bell.wav";
+  document.getElementById("myButton4").src="bell.wav";
+  document.getElementById("myButton5").src="bell.wav";
+  document.getElementById("myButton6").src="bell.wav";
+  document.getElementById("myButton7").src="bell.wav";
+  document.getElementById("myButton8").src="bell.wav";
+  document.getElementById("myButton9").src="bell.wav";
+  document.getElementById("myButton10").src="bell.wav";
 }

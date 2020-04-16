@@ -1,27 +1,44 @@
-.radical{
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+.radical {
   background-color: darkblue;
-  color:pink;
+  color: pink;
   font-size: "32px";
 }
 
-.backset{
+.backset {
   background-color: black;
-  color:white;
-  width:"1000px";
-  height:"500px";
+  color: white;
+  width: "1000px";
+  height: "500px";
 }
 
-.keySet{
-  display:flex;
-  z-index:1;
-  background-color:white;
-  width:17.7px;
-  height:40px;
-  transform:translate(3px,-50px);
+.keySet {
+  display: flex;
+  z-index: 1;
+  background-color: white;
+  width: 17.6px;
+  height: 40px;
+  transform: translate(3px, -50px);
 }
 
-.keyAlign{
-  display:flex;
+.keyAlign {
+  display: flex;
   align-items: center;
   justify-content: flex-start;
+}
+
+/* https://www.w3schools.com/cssref/func_linear-gradient.asp */
+/* https://css-tricks.com/snippets/css/gradient-text/*/
+.titleCustom {
+  font-family: 'Audiowide', cursive;
+  font-size: 32px;
+  text-align: center;
+  background: -webkit-linear-gradient(lightblue, blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+button:hover {
+  background-color: pink;
 }
