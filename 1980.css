@@ -7,6 +7,25 @@
 .backset{
   background-color: black;
   color:white;
-  width:"500px";
+  width:"1000px";
   height:"500px";
+}
+
+.keySet{
+  display:flex;
+  z-index:1;
+  background-color:white;
+  width:17.7px;
+  height:40px;
+  transform:translate(3px,-50px);
+}
+
+.pianoImageProps{
+  z-index: -1;
+}
+
+.keyAlign{
+  display:flex;
+  align-items: center;
+  justify-content: flex-start;
 }
