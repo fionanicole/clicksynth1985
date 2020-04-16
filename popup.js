@@ -96,7 +96,7 @@ function excellentButton(){
 function femalesingButton(){
   console.log("femalesing is running")
   var femalesingSound = new Audio(chrome.runtime.getURL("djmix/female-sing.wav"));
-  Sound.play();
+  femalesingSound.play();
 }
 
 function fourButton(){
