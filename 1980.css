@@ -20,10 +20,6 @@
   transform:translate(3px,-50px);
 }
 
-.pianoImageProps{
-  z-index: -1;
-}
-
 .keyAlign{
   display:flex;
   align-items: center;
