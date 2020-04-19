@@ -47,6 +47,10 @@
   background-color: lightblue;
 }
 
+.menuButtons:hover{
+  background-color: rgb(255, 77, 255);
+}
+
 .buttonAlign{
   display:flex;
   align-items: center;

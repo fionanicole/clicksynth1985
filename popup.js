@@ -81,7 +81,6 @@ document.getElementById("myButton29").addEventListener("click", woohButton);
 
 // functions to run sounds--------------------------------------------------------------------------------------------------
 // SOURCE:https://stackoverflow.com/questions/27496465/how-can-i-play-sound-in-a-chrome-extension
-
 function aaghButton() {
   console.log("aagh is running")
   aaghSound.play();
