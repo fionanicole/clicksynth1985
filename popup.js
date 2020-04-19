@@ -28,8 +28,6 @@ var threeSound = new Audio(chrome.runtime.getURL("djmix/three.wav"));
 var uuhghSound = new Audio(chrome.runtime.getURL("djmix/uuhgh.wav"));
 var verygoodSound = new Audio(chrome.runtime.getURL("djmix/very-good.wav"));
 var woohSound = new Audio(chrome.runtime.getURL("djmix/wooh.wav"));
-var yoSound = new Audio(chrome.runtime.getURL("djmix/yo.wav"));
-var zipupSound = new Audio(chrome.runtime.getURL("djmix/zipup.wav"));
 
 
 // add piano buttons to piano------------------------------------------------------------------------------------------------
@@ -212,16 +210,6 @@ function woohButton() {
   woohSound.play();
 }
 
-function yoButton() {
-  console.log("yo is running")
-  yoSound.play();
-}
-
-function zipupButton() {
-  console.log("zipup is running");
-  zipupSound.play();
-}
-
 //switch SoundBoard--------------------------------------------------------------------------------------------
 document.getElementById("switchUp").addEventListener("click", pianoTone1);
 document.getElementById("switchUp").addEventListener("click", pianoTone2);
@@ -251,6 +239,7 @@ document.getElementById("switchUp").addEventListener("click", pianoTone25);
 document.getElementById("switchUp").addEventListener("click", pianoTone26);
 document.getElementById("switchUp").addEventListener("click", pianoTone27);
 document.getElementById("switchUp").addEventListener("click", pianoTone28);
+document.getElementById("switchUp").addEventListener("click", pianoTone29);
 
 function pianoTone1(){
   console.log("aagh was switched");
@@ -260,4 +249,139 @@ function pianoTone1(){
 function pianoTone2(){
   console.log("alarmrise was switched");
   alarmriseSound.setAttribute('src','djmix/pianoscale/piano2.wav');
+}
+
+function pianoTone3(){
+  console.log("chatter was switched");
+  chatterSound.setAttribute('src','djmix/pianoscale/piano3.wav');
+}
+
+function pianoTone4(){
+  console.log("clap was switched");
+  clapSound.setAttribute('src','djmix/pianoscale/piano4.wav');
+}
+
+function pianoTone5(){
+  console.log("come on was switched");
+  comeonSound.setAttribute('src','djmix/pianoscale/piano5.wav');
+}
+
+function pianoTone6(){
+  console.log("cymbalrise was switched");
+  cymbalriseSound.setAttribute('src','djmix/pianoscale/piano6.wav');
+}
+
+function pianoTone7(){
+  console.log("dictionary was switched");
+  dictionarySound.setAttribute('src','djmix/pianoscale/piano7.wav');
+}
+
+function pianoTone8(){
+  console.log("dingdong was switched");
+  dingdongSound.setAttribute('src','djmix/pianoscale/piano8.wav');
+}
+
+function pianoTone9(){
+  console.log("djshout was switched");
+  djshoutSound.setAttribute('src','djmix/pianoscale/piano9.wav');
+}
+
+function pianoTone10(){
+  console.log("excellent was switched");
+  excellentSound.setAttribute('src','djmix/pianoscale/piano10.wav');
+}
+
+function pianoTone11(){
+  console.log("femalesing was switched");
+  femalesingSound.setAttribute('src','djmix/pianoscale/piano11.wav');
+}
+
+function pianoTone12(){
+  console.log("four was switched");
+  fourSound.setAttribute('src','djmix/pianoscale/piano12.wav');
+}
+
+function pianoTone13(){
+  console.log("get up was switched");
+  getupSound.setAttribute('src','djmix/pianoscale/piano13.wav');
+}
+
+function pianoTone14(){
+  console.log("go was switched");
+  goSound.setAttribute('src','djmix/pianoscale/piano14.wav');
+}
+
+function pianoTone15(){
+  console.log("good was switched");
+  goodSound.setAttribute('src','djmix/pianoscale/piano15.wav');
+}
+
+function pianoTone16(){
+  console.log("hit was switched");
+  hitSound.setAttribute('src','djmix/pianoscale/piano16.wav');
+}
+
+function pianoTone17(){
+  console.log("listen was switched");
+  listenSound.setAttribute('src','djmix/pianoscale/piano17.wav');
+}
+
+function pianoTone18(){
+  console.log("ok was switched");
+  okSound.setAttribute('src','djmix/pianoscale/piano18.wav');
+}
+
+function pianoTone19(){
+  console.log("one more time was switched");
+  onemoretimeSound.setAttribute('src','djmix/pianoscale/piano19.wav');
+}
+
+function pianoTone20(){
+  console.log("one was switched");
+  oneSound.setAttribute('src','djmix/pianoscale/piano20.wav');
+}
+
+function pianoTone21(){
+  console.log("quack was switched");
+  quackSound.setAttribute('src','djmix/pianoscale/piano21.wav');
+}
+
+function pianoTone22(){
+  console.log("rip higher was switched");
+  riphigherSound.setAttribute('src','djmix/pianoscale/piano22.wav');
+}
+
+function pianoTone23(){
+  console.log("scratch was switched");
+  scratchSound.setAttribute('src','djmix/pianoscale/piano23.wav');
+}
+
+function pianoTone24(){
+  console.log("sparkle was switched");
+  sparkleSound.setAttribute('src','djmix/pianoscale/piano24.wav');
+}
+
+function pianoTone25(){
+  console.log("squish was switched");
+  squishSound.setAttribute('src','djmix/pianoscale/piano25.wav');
+}
+
+function pianoTone26(){
+  console.log("three was switched");
+  threeSound.setAttribute('src','djmix/pianoscale/piano26.wav');
+}
+
+function pianoTone27(){
+  console.log("uuhgh was switched");
+  uuhghSound.setAttribute('src','djmix/pianoscale/piano27.wav');
+}
+
+function pianoTone28(){
+  console.log("very good was switched");
+  verygoodSound.setAttribute('src','djmix/pianoscale/piano28.wav');
+}
+
+function pianoTone29(){
+  console.log("wooh was switched");
+  woohSound.setAttribute('src','djmix/pianoscale/piano29.wav');
 }
