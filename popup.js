@@ -1,24 +1,18 @@
 // changing the color of a key
 // https://www.geeksforgeeks.org/how-to-pick-a-random-color-from-an-array-using-css-and-javascript/
-// https://stackoverflow.com/questions/31468794/how-to-show-random-color-on-hover-in-css
 
-// var colorKeys=['#ffb3ff','#3399ff','#9933ff'];
-
-var menuBoxes = document.getElementsByClassName('keySet');
-for (var i = 0; i < menuBoxes.length; i++) {
-    menuBoxes[i].onmouseover = function(e) {
-        var color = '#'+Math.floor(Math.random()*16777215).toString(16);
-        var colorString = '0px 0px 30px 0px ' + color;
-        this.style.backgroundColor = colorString;
-        this.style['box-shadow'] = colorString;
-        // this.style['-webkit-box-shadow'] = colorString;
-        // this.style['-moz-box-shadow'] = colorString;
+// Make the keys light up when rolled over
+// SOURCE for random rollover code: https://stackoverflow.com/questions/31468794/how-to-show-random-color-on-hover-in-css
+var rollKey = document.getElementsByClassName('keySet');
+for (var i = 0; i < rollKey.length; i++) {
+    rollKey[i].onmouseover = function(e) {
+      var colors = ['rgb(51, 153, 255)', 'rgb(153, 102, 255)', 'rgb(255, 179, 255)','rgb(204, 51, 255)','rgb(0, 102, 255)','rgb(102, 0, 255)','rgb(255, 51, 204)','rgb(128, 204, 255)'];
+      var random_color = colors[Math.floor(Math.random() * colors.length)];
+      this.style.backgroundColor = random_color;
     }
 }
 
-
-
-// global variables----------------------------------------------------------------------------------------------------------
+// sound variables----------------------------------------------------------------------------------------------------------
 var aaghSound = new Audio(chrome.runtime.getURL("djmix/aagh.wav"));
 var alarmriseSound = new Audio(chrome.runtime.getURL("djmix/alarm-rise.wav"));
 var chatterSound = new Audio(chrome.runtime.getURL("djmix/chatter.wav"));

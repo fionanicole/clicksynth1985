@@ -7,5 +7,5 @@
     "default_icon": "mixer-icon.png",
     "default_popup": "popup.html"
   },
-  "web_accessible_resources": ["*.wav"]
+  "web_accessible_resources": ["*.wav","*.png"]
 }
