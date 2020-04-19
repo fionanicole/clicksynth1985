@@ -1,9 +1,10 @@
 {
   "manifest_version": 2,
-  "name": "nostalgic-dj",
+  "name": "Brianna's Music Mixer",
   "version": "1.0",
-  "description": "This extension turns your browser into an old Yamaha piano!",
+  "description": "This extension turns your browser into an old Yamaha piano! Click on the menu buttons to change the sounds and access a custom playlist for Brianna!",
   "browser_action": {
+    "default_icon": "mixer-icon.png",
     "default_popup": "popup.html"
   },
   "web_accessible_resources": ["*.wav"]
