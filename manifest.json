@@ -7,5 +7,11 @@
     "default_icon": "mixer-icon.png",
     "default_popup": "popup.html"
   },
-  "web_accessible_resources": ["*.wav","*.png"]
+  "icons": {
+    "16": "mixer-icon.png",
+    "48": "mixer-icon.png",
+    "128": "mixer-icon.png"
+  },
+  "web_accessible_resources":
+  ["*.wav","*.png"]
 }

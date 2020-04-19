@@ -47,9 +47,13 @@
   background-color: lightblue;
 }
 
-/* .keySet:hover {
-  background-color: rgb(255, 102, 255);
-} */
+.buttonAlign{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  justify-content: space-between;
+}
 
 /* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_buttons_animate3 */
 .keySet:active{
