@@ -40,6 +40,7 @@
 
 .menuButtons{
   display:flex;
+  color: black;
   font-family: 'Audiowide', cursive;
   font-size: 12px;
   background-color: lightblue;
