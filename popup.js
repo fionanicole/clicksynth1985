@@ -1,3 +1,23 @@
+// changing the color of a key
+// https://www.geeksforgeeks.org/how-to-pick-a-random-color-from-an-array-using-css-and-javascript/
+// https://stackoverflow.com/questions/31468794/how-to-show-random-color-on-hover-in-css
+
+// var colorKeys=['#ffb3ff','#3399ff','#9933ff'];
+
+var menuBoxes = document.getElementsByClassName('keySet');
+for (var i = 0; i < menuBoxes.length; i++) {
+    menuBoxes[i].onmouseover = function(e) {
+        var color = '#'+Math.floor(Math.random()*16777215).toString(16);
+        var colorString = '0px 0px 30px 0px ' + color;
+        this.style.backgroundColor = colorString;
+        this.style['box-shadow'] = colorString;
+        // this.style['-webkit-box-shadow'] = colorString;
+        // this.style['-moz-box-shadow'] = colorString;
+    }
+}
+
+
+
 // global variables----------------------------------------------------------------------------------------------------------
 var aaghSound = new Audio(chrome.runtime.getURL("djmix/aagh.wav"));
 var alarmriseSound = new Audio(chrome.runtime.getURL("djmix/alarm-rise.wav"));
